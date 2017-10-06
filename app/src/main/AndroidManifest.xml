@@ -28,6 +28,8 @@
 
         <activity android:name=".RecyclerViewStaggeredActivity"/>
 
+        <activity android:name=".FloatingActionButtonActivity"/>
+
     </application>
 
 </manifest>

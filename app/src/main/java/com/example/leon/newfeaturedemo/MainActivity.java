@@ -37,4 +37,9 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, RecyclerViewStaggeredActivity.class);
         startActivity(intent);
     }
+
+    public void onStartFloatingActionButtonActivity(View view) {
+        Intent intent = new Intent(this, FloatingActionButtonActivity.class);
+        startActivity(intent);
+    }
 }

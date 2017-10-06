@@ -33,6 +33,13 @@
             android:onClick="onStartRecyclerViewStaggeredGridActivity"/>
 
 
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="FloatingActionButton"
+            android:onClick="onStartFloatingActionButtonActivity"/>
+
+
 
         <Button
             android:layout_width="match_parent"
