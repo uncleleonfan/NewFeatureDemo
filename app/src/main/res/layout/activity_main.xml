@@ -12,8 +12,34 @@
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="ToolBar"
-            android:onClick="onStartToolBarActivity"/>
+            android:text="CardView"
+            android:onClick="onStartCardViewActivity"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="RecyclerView-List"
+            android:onClick="onStartRecyclerViewListActivity"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="RecyclerView-Grid"
+            android:onClick="onStartRecyclerViewGridActivity"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="RecyclerView-Staggered-Grid"
+            android:onClick="onStartRecyclerViewStaggeredGridActivity"/>
+
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Toolbar"
+            android:onClick="onStartToolbarActivity"/>
+
 
     </LinearLayout>
 

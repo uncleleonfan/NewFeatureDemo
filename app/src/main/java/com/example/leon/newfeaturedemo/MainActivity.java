@@ -13,8 +13,28 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-    public void onStartToolBarActivity(View view) {
+    public void onStartToolbarActivity(View view) {
         Intent intent = new Intent(this, ToolbarActivity.class);
+        startActivity(intent);
+    }
+
+    public void onStartCardViewActivity(View view) {
+        Intent intent = new Intent(this, CardViewActivity.class);
+        startActivity(intent);
+    }
+
+    public void onStartRecyclerViewListActivity(View view) {
+        Intent intent = new Intent(this, RecyclerViewListActivity.class);
+        startActivity(intent);
+    }
+
+    public void onStartRecyclerViewGridActivity(View view) {
+        Intent intent = new Intent(this, RecyclerViewGridActivity.class);
+        startActivity(intent);
+    }
+
+    public void onStartRecyclerViewStaggeredGridActivity(View view) {
+        Intent intent = new Intent(this, RecyclerViewStaggeredActivity.class);
         startActivity(intent);
     }
 }

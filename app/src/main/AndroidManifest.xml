@@ -19,6 +19,15 @@
         </activity>
         <activity android:name=".ToolbarActivity"
             android:theme="@style/AppTheme.FullScreen"/>
+
+        <activity android:name=".CardViewActivity"/>
+
+        <activity android:name=".RecyclerViewListActivity"/>
+
+        <activity android:name=".RecyclerViewGridActivity"/>
+
+        <activity android:name=".RecyclerViewStaggeredActivity"/>
+
     </application>
 
 </manifest>
