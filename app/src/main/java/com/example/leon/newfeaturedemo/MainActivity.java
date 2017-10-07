@@ -52,4 +52,9 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, CoordinatorLayoutActivity.class);
         startActivity(intent);
     }
+
+    public void onStartAppBarLayoutActivity(View view) {
+        Intent intent = new Intent(this, AppBarLayoutActivity.class);
+        startActivity(intent);
+    }
 }

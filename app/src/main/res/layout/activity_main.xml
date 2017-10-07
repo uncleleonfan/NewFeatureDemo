@@ -58,6 +58,13 @@
             android:text="Toolbar"
             android:onClick="onStartToolbarActivity"/>
 
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="AppBarLayout"
+            android:onClick="onStartAppBarLayoutActivity"/>
+
+
 
     </LinearLayout>
 

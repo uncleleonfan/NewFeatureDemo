@@ -18,7 +18,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".ToolbarActivity"
-            android:theme="@style/AppTheme.FullScreen"/>
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
 
         <activity android:name=".CardViewActivity"/>
 
@@ -33,6 +33,9 @@
         <activity android:name=".CoordinatorLayoutActivity"/>
 
         <activity android:name=".SnackbarActivity"/>
+
+        <activity android:name=".AppBarLayoutActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
 
     </application>
 
