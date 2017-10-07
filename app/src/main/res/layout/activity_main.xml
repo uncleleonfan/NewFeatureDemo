@@ -45,6 +45,12 @@
             android:text="Snackbar"
             android:onClick="onStartSnackbarActivity"/>
 
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CoordinatorLayout"
+            android:onClick="onStartCoordinatorLayoutActivity"/>
+
 
         <Button
             android:layout_width="match_parent"

@@ -47,4 +47,9 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, SnackbarActivity.class);
         startActivity(intent);
     }
+
+    public void onStartCoordinatorLayoutActivity(View view) {
+        Intent intent = new Intent(this, CoordinatorLayoutActivity.class);
+        startActivity(intent);
+    }
 }
