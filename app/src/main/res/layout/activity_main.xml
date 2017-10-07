@@ -70,6 +70,12 @@
             android:text="CollapsingToolbarLayout"
             android:onClick="onStartCollapsingToolbarLayout"/>
 
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="BottomNavigationView"
+            android:onClick="onStartBottomNavigationView"/>
+
 
 
 

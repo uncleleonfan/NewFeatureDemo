@@ -62,4 +62,9 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, CollapsingToolbarLayoutActivity.class);
         startActivity(intent);
     }
+
+    public void onStartBottomNavigationView(View view) {
+        Intent intent = new Intent(this, BottomNavigationViewActivity.class);
+        startActivity(intent);
+    }
 }
