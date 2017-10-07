@@ -72,4 +72,9 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, BottomSheetDialogActivity.class);
         startActivity(intent);
     }
+
+    public void onStartTextInputLayout(View view) {
+        Intent intent = new Intent(this, TextInputLayoutActivity.class);
+        startActivity(intent);
+    }
 }
