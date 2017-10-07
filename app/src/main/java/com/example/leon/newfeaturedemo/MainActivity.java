@@ -67,4 +67,9 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, BottomNavigationViewActivity.class);
         startActivity(intent);
     }
+
+    public void onStartBottomSheetDialog(View view) {
+        Intent intent = new Intent(this, BottomSheetDialogActivity.class);
+        startActivity(intent);
+    }
 }

@@ -42,6 +42,8 @@
 
         <activity android:name=".BottomNavigationViewActivity"/>
 
+        <activity android:name=".BottomSheetDialogActivity"/>
+
     </application>
 
 </manifest>
