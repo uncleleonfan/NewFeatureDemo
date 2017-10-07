@@ -64,6 +64,14 @@
             android:text="AppBarLayout"
             android:onClick="onStartAppBarLayoutActivity"/>
 
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CollapsingToolbarLayout"
+            android:onClick="onStartCollapsingToolbarLayout"/>
+
+
+
 
 
     </LinearLayout>
