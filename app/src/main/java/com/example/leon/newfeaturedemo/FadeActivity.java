@@ -22,6 +22,5 @@ public class FadeActivity extends AppCompatActivity {
             fade.setDuration(1000);
             getWindow().setEnterTransition(fade);
         }
-
     }
 }

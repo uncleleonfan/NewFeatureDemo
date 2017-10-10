@@ -26,7 +26,6 @@ public class TransitionAnimationActivity extends AppCompatActivity {
         ActivityOptionsCompat activityOptionsCompat = ActivityOptionsCompat.makeSceneTransitionAnimation(this);
         Intent intent = new Intent(this, SlideActivity.class);
         ActivityCompat.startActivity(this, intent, activityOptionsCompat.toBundle());
-
     }
 
     public void onFade(View view) {
