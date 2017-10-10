@@ -71,7 +71,7 @@ public class ShareElementActivity extends AppCompatActivity {
 
     @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
     private Animator animateRevealColorFromCoordinates(ViewGroup viewRoot, @ColorRes int color) {
-        float finalRadius = (float) Math.hypot(viewRoot.getWidth(), viewRoot.getHeight());
+        float finalRadius = (float) Math.max(viewRoot.getWidth(), viewRoot.getHeight());
         int x = viewRoot.getWidth() / 2;
         int y = viewRoot.getHeight() / 2;
         Animator anim = ViewAnimationUtils.createCircularReveal(viewRoot, x, y, 0, finalRadius);
