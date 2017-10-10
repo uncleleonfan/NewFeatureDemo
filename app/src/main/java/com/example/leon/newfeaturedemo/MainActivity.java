@@ -97,4 +97,9 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, RippleActivity.class);
         startActivity(intent);
     }
+
+    public void onStartTransitionAnimationActivity(View view) {
+        Intent intent = new Intent(this, TransitionAnimationActivity.class);
+        startActivity(intent);
+    }
 }

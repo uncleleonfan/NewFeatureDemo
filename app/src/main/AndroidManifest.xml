@@ -54,6 +54,10 @@
 
         <activity android:name=".RippleActivity"/>
 
+        <activity android:name=".TransitionAnimationActivity"/>
+
+        <activity android:name=".SlideActivity"/>
+
     </application>
 
 </manifest>

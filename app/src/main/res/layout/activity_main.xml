@@ -21,6 +21,12 @@
             android:text="Ripple"
             android:onClick="onStartRippleActivity"/>
 
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Transiation Animation"
+            android:onClick="onStartTransitionAnimationActivity"/>
+
 
         <Button
             android:layout_width="match_parent"
