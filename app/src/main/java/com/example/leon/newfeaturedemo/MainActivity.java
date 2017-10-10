@@ -77,4 +77,9 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, TextInputLayoutActivity.class);
         startActivity(intent);
     }
+
+    public void onStartSwipeRefreshLayoutActivity(View view) {
+        Intent intent = new Intent(this, SwipeRefreshLayoutActivity.class);
+        startActivity(intent);
+    }
 }

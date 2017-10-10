@@ -46,6 +46,8 @@
 
         <activity android:name=".TextInputLayoutActivity"/>
 
+        <activity android:name=".SwipeRefreshLayoutActivity"/>
+
     </application>
 
 </manifest>

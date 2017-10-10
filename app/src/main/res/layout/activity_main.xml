@@ -88,6 +88,11 @@
             android:text="TextInputLayout"
             android:onClick="onStartTextInputLayout"/>
 
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SwipeRefreshLayout"
+            android:onClick="onStartSwipeRefreshLayoutActivity"/>
 
 
     </LinearLayout>
