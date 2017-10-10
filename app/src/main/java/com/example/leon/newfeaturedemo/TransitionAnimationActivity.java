@@ -1,9 +1,10 @@
 package com.example.leon.newfeaturedemo;
 
-import android.app.ActivityOptions;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
+import android.support.v4.app.ActivityCompat;
+import android.support.v4.app.ActivityOptionsCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
@@ -22,10 +23,21 @@ public class TransitionAnimationActivity extends AppCompatActivity {
     }
 
     public void onSlide(View view) {
-        if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.LOLLIPOP) {
-            Bundle bundle = ActivityOptions.makeSceneTransitionAnimation(this).toBundle();
-            Intent intent = new Intent(this, SlideActivity.class);
-            startActivity(intent, bundle);
-        }
+        ActivityOptionsCompat activityOptionsCompat = ActivityOptionsCompat.makeSceneTransitionAnimation(this);
+        Intent intent = new Intent(this, SlideActivity.class);
+        ActivityCompat.startActivity(this, intent, activityOptionsCompat.toBundle());
+
+    }
+
+    public void onFade(View view) {
+        Bundle bundle = ActivityOptionsCompat.makeSceneTransitionAnimation(this).toBundle();
+        Intent intent = new Intent(this, FadeActivity.class);
+        ActivityCompat.startActivity(this, intent, bundle);
+    }
+
+    public void onExplode(View view) {
+        Bundle bundle = ActivityOptionsCompat.makeSceneTransitionAnimation(this).toBundle();
+        Intent intent = new Intent(this, ExplodeActivity.class);
+        ActivityCompat.startActivity(this, intent, bundle);
     }
 }

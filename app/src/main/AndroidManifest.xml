@@ -58,6 +58,10 @@
 
         <activity android:name=".SlideActivity"/>
 
+        <activity android:name=".FadeActivity"/>
+
+        <activity android:name=".ExplodeActivity"/>
+
     </application>
 
 </manifest>

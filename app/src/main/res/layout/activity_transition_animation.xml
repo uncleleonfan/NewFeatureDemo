@@ -11,4 +11,18 @@
         android:onClick="onSlide"/>
 
 
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fade"
+        android:onClick="onFade"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Explode"
+        android:onClick="onExplode"/>
+
+
+
 </LinearLayout>
