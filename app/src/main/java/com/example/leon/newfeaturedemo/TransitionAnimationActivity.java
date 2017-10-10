@@ -40,4 +40,12 @@ public class TransitionAnimationActivity extends AppCompatActivity {
         Intent intent = new Intent(this, ExplodeActivity.class);
         ActivityCompat.startActivity(this, intent, bundle);
     }
+
+    public void onShareElement(View view) {
+        Bundle bundle = ActivityOptionsCompat
+                .makeSceneTransitionAnimation(this, view, getString(R.string.red_name))
+                .toBundle();
+        Intent intent = new Intent(this, ShareElementActivity.class);
+        ActivityCompat.startActivity(this, intent, bundle);
+    }
 }

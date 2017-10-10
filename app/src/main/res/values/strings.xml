@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">NewFeatureDemo</string>
+    <string name="red_name">RED</string>
 </resources>
