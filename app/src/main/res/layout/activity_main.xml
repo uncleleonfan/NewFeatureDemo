@@ -12,6 +12,19 @@
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:text="Elevation and Shadows"
+            android:onClick="onStartElevationAndShadows"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ripple"
+            android:onClick="onStartRippleActivity"/>
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:text="CardView"
             android:onClick="onStartCardViewActivity"/>
 

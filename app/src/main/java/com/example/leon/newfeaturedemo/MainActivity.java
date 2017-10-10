@@ -87,4 +87,14 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, TabLayoutActivity.class);
         startActivity(intent);
     }
+
+    public void onStartElevationAndShadows(View view) {
+        Intent intent = new Intent(this, ElevationAndShadowsActivity.class);
+        startActivity(intent);
+    }
+
+    public void onStartRippleActivity(View view) {
+        Intent intent = new Intent(this, RippleActivity.class);
+        startActivity(intent);
+    }
 }

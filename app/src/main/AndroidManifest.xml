@@ -50,6 +50,10 @@
 
         <activity android:name=".TabLayoutActivity"/>
 
+        <activity android:name=".ElevationAndShadowsActivity"/>
+
+        <activity android:name=".RippleActivity"/>
+
     </application>
 
 </manifest>
