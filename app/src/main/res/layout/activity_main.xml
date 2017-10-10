@@ -27,6 +27,11 @@
             android:text="Transiation Animation"
             android:onClick="onStartTransitionAnimationActivity"/>
 
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tint"
+            android:onClick="onStartTintActivity"/>
 
         <Button
             android:layout_width="match_parent"
@@ -118,6 +123,8 @@
             android:layout_height="wrap_content"
             android:text="TabLayoutActivity"
             android:onClick="onStartTabLayoutActivity"/>
+
+
 
 
     </LinearLayout>

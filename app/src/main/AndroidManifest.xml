@@ -64,6 +64,8 @@
 
         <activity android:name=".ShareElementActivity"/>
 
+        <activity android:name=".TintActivity"/>
+
     </application>
 
 </manifest>

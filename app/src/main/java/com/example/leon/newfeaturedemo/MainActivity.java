@@ -102,4 +102,9 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, TransitionAnimationActivity.class);
         startActivity(intent);
     }
+
+    public void onStartTintActivity(View view) {
+        Intent intent = new Intent(this, TintActivity.class);
+        startActivity(intent);
+    }
 }
