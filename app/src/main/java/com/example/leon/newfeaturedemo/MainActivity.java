@@ -82,4 +82,9 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, SwipeRefreshLayoutActivity.class);
         startActivity(intent);
     }
+
+    public void onStartTabLayoutActivity(View view) {
+        Intent intent = new Intent(this, TabLayoutActivity.class);
+        startActivity(intent);
+    }
 }
