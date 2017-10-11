@@ -107,4 +107,9 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, TintActivity.class);
         startActivity(intent);
     }
+
+    public void onStartNavigationActivity(View view) {
+        Intent intent = new Intent(this, NavigationViewActivity.class);
+        startActivity(intent);
+    }
 }

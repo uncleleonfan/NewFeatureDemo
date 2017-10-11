@@ -22,7 +22,6 @@ public class BottomSheetDialogActivity extends AppCompatActivity {
     }
 
     public void onShowBottomSheetDialog(View view) {
-
         mBottomSheetDialog = new BottomSheetDialog(this);
         mBottomSheetDialog.setContentView(R.layout.view_bottom_sheet);
         mBottomSheetDialog.show();

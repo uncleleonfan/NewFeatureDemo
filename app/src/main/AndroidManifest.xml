@@ -66,6 +66,9 @@
 
         <activity android:name=".TintActivity"/>
 
+        <activity android:name=".NavigationViewActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
+
     </application>
 
 </manifest>
